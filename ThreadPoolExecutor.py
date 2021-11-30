@@ -17,7 +17,7 @@ def check_link(link):
 
 
 links = open('res.txt', encoding='utf8').read().split('\n')
-with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
     future_to_url = {executor.submit(check_link, link): link for link in links}
     for future in concurrent.futures.as_completed(future_to_url):
         link = future_to_url[future]
