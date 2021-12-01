@@ -15,6 +15,9 @@
 ![image](https://user-images.githubusercontent.com/75948025/144119747-7cc405a9-f3de-4f50-bf0c-a8f53398aedc.png)
 ![image](https://user-images.githubusercontent.com/75948025/144119550-c83f55cc-2f57-4968-bae5-d6108384cf20.png)
 
+### Вывод: загрузка памяти не зависит от количества воркеров. Загрузка увеличивается, как и загрузка интернета, но время работы программы уменьшается в несколько раз.
+Нет смысла делать больше воркеров, так как прирост становится незначительным.
+
 ## генерация 1 ядра
 ![image](https://user-images.githubusercontent.com/75948025/144127280-0a6abfc7-eace-4fc4-aa69-c01ef8c21000.png)
 ![image](https://user-images.githubusercontent.com/75948025/144121579-93ba3a8f-7c4a-4eab-a292-a1bfa389a73d.png)
@@ -42,6 +45,7 @@
 ![image](https://user-images.githubusercontent.com/75948025/144129262-6d7148d1-4275-4a7f-9c17-9c7a3e7f6fb9.png)
 ![image](https://user-images.githubusercontent.com/75948025/144129516-60e1d8ca-70fc-4f95-86c9-31ad64f6ca6b.png)
 
+### Вывод: загрузка памяти не зависит от количества воркеров. Загрузка увеличивается, но когда число воркеров достигает числа ядер процессора - не изменяется
 
 
 
